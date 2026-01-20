@@ -83,8 +83,8 @@ footer {
   height: 200px;
   border-radius: 50%;
 
-  object-fit: contain;
-  background: #0b1220;
+  object-fit: cover;
+  object-position: center 10%;
 
   filter: grayscale(100%);
   transform: scale(1) translateY(0);
