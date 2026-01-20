@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #020617, #0f172a);
+  color: #e5e7eb;
+}
+
+header {
+  text-align: center;
+  padding: 30px;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.lang button {
+  margin: 5px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.card {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #020617;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,.4);
+}
+
+footer {
+  text-align: center;
+  opacity: 0.6;
+  padding: 20px;
+}
