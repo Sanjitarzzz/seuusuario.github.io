@@ -1,1 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Meu Site Pessoal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #1f2937;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #111827;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+    h2 {
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 10px;
+    }
+    button {
+      background: #2563eb;
+      color: #fff;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #6b7280;
+    }
+    @media print {
+      nav, button {
+        display: none;
+      }
+      body {
+        background: #fff;
+      }
+      section {
+        margin: 0;
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body>
 
+<header>
+  <h1>Seu Nome</h1>
+  <p>Seu cargo ou objetivo profissional</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#educacao">Educação</a>
+  <a href="#experiencia">Experiência</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<section id="home">
+  <h2>Home</h2>
+  <p>Resumo profissional ou apresentação pessoal.</p>
+</section>
+
+<section id="educacao">
+  <h2>Educação</h2>
+  <ul>
+    <li>Curso – Instituição (Ano)</li>
+  </ul>
+</section>
+
+<section id="experiencia">
+  <h2>Experiência</h2>
+  <ul>
+    <li>Cargo – Empresa (Período)</li>
+  </ul>
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <p>Email: seuemail@email.com</p>
+  <p>LinkedIn / GitHub</p>
+  <button onclick="window.print()">Salvar como PDF</button>
+</section>
+
+<footer>
+  <p>© 2026 – Seu Nome</p>
+</footer>
+
+</body>
+</html>
