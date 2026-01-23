@@ -1,94 +1,85 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title>Experiência | Fhellype Delminio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <script defer src="lang.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Experiência • Fhellype Delminio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="app.js"></script>
 </head>
+
 <body>
+  <div class="container">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-badge"></div>
+        <div class="brand-text">
+          <h1>Fhellype Delminio</h1>
+          <p>Experiências profissionais</p>
+        </div>
+      </div>
 
-<header>
-  <h1 data-pt="Experiência" data-en="Experience" data-fr="Expérience"></h1>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="educacao.html">Educação</a>
+        <a href="experiencia.html">Experiência</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="contato.html">Contato</a>
+      </nav>
 
-  <nav>
-    <a href="index.html" data-pt="Home" data-en="Home" data-fr="Accueil"></a>
-    <a href="sobre.html" data-pt="Sobre mim" data-en="About me" data-fr="À propos"></a>
-    <a href="educacao.html" data-pt="Educação" data-en="Education" data-fr="Éducation"></a>
-    <a href="experiencia.html" data-pt="Experiência" data-en="Experience" data-fr="Expérience"></a>
-  </nav>
+      <div class="actions">
+        <button class="btn" data-pdf>Salvar em PDF</button>
+        <a class="btn btn-primary" href="contato.html">Fale comigo</a>
+      </div>
+    </header>
 
-  <div class="lang">
-    <button onclick="setLang('pt')">PT</button>
-    <button onclick="setLang('en')">EN</button>
-    <button onclick="setLang('fr')">FR</button>
+    <main class="page">
+      <div class="page-inner">
+        <section class="section">
+          <h2 class="h1" style="font-size:28px;">Experiência</h2>
+
+          <div class="grid">
+            <div class="item">
+              <h3>Especialista em TI</h3>
+              <p><b>VILAROUCA Advocacia e Consultoria</b> • nov/2025 — atual • Cuiabá/MT</p>
+              <p class="small">
+                Suporte técnico (hardware/software), manutenção preventiva/corretiva, resolução de incidentes,
+                construção/atualização/monitoramento de sites e suporte a sistemas.
+              </p>
+            </div>
+
+            <div class="item">
+              <h3>Assistente Administrativo</h3>
+              <p><b>Ldisc</b> • jan/2024 — dez/2024 • Cuiabá/MT</p>
+              <p class="small">
+                Controle de documentos, suporte a rotinas administrativas, relatórios, inserção de dados,
+                organização de demandas e apoio a diferentes setores.
+              </p>
+            </div>
+
+            <div class="item">
+              <h3>Psicólogo Infantil</h3>
+              <p><b>CAPS</b> • fev/2023 — set/2024 • Cuiabá/MT</p>
+              <p class="small">
+                Atendimento humanizado, escuta ativa, suporte multidisciplinar e desenvolvimento emocional,
+                cognitivo e social de crianças.
+              </p>
+            </div>
+
+            <div class="item">
+              <h3>Gerente de Vendas</h3>
+              <p><b>Chocolates Lugano de Gramado</b> • jan/2022 — dez/2023 • Cuiabá/MT</p>
+              <p class="small">
+                Liderança de equipe, metas, análise de resultados, estratégias comerciais, negociações e relatórios.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <footer class="footer">© 2026 • Fhellype Delminio</footer>
+      </div>
+    </main>
   </div>
-</header>
-
-<main class="card">
-
-  <h2 data-pt="Especialista em TI"
-      data-en="IT Specialist"
-      data-fr="Spécialiste en informática"></h2>
-
-  <p data-pt="Vilarouca Advocacia e Consultoria | nov de 2025 – atualmente | Cuiabá – MT"
-     data-en="Vilarouca Advocacy and Consulting | Nov 2025 – Present | Cuiabá – MT"
-     data-fr="Vilarouca Cabinet et Conseil | nov. 2025 – présent | Cuiabá – MT"></p>
-
-  <p data-pt="Atuo na área de Tecnologia da Informação, prestando suporte técnico em hardware e software, realizando diagnóstico, manutenção preventiva e corretiva e resolução de incidentes para garantir o pleno funcionamento dos equipamentos e sistemas."
-     data-en="I work in Information Technology providing hardware and software support, diagnostics, preventive/corrective maintenance and incident resolution to ensure proper operation of systems and equipment."
-     data-fr="Je travaille en informatique en assurant le support matériel et logiciel, le diagnostic, la maintenance préventive et corrective, ainsi que la résolution d’incidents pour garantir le bon fonctionnement des systèmes et équipements."></p>
-
-  <p data-pt="Também sou responsável pela construção, atualização e monitoramento de sites, garantindo desempenho, disponibilidade e segurança, além de suporte a sistemas e melhoria contínua de processos tecnológicos."
-     data-en="I am also responsible for building, updating and monitoring websites, ensuring performance, availability and security, as well as supporting systems and improving technology processes."
-     data-fr="Je suis également responsable de la création, mise à jour et supervision des sites web, en assurant performance, disponibilité et sécurité, ainsi que du support aux systèmes et l’amélioration des processus technologiques."></p>
-
-  <hr style="opacity:.2; margin:30px 0;">
-
-  <h2 data-pt="Assistente Administrativo"
-      data-en="Administrative Assistant"
-      data-fr="Assistant administratif"></h2>
-
-  <p data-pt="Ldisc | jan de 2024 – dez de 2024 | Cuiabá – MT"
-     data-en="Ldisc | Jan 2024 – Dec 2024 | Cuiabá – MT"
-     data-fr="Ldisc | janv. 2024 – déc. 2024 | Cuiabá – MT"></p>
-
-  <p data-pt="Atuei dando suporte à empresa, organizando documentos, atendimento a clientes e fornecedores, organização de agendas, atualização de relatórios e inserção de dados em sistemas, garantindo eficiência operacional."
-     data-en="I supported the company by organizing documents, assisting clients and suppliers, managing schedules, updating reports and entering data in systems, ensuring operational efficiency."
-     data-fr="J’ai soutenu l’entreprise en organisant les documents, en aidant les clients et fournisseurs, en gérant les agendas, en mettant à jour des rapports et en saisissant des données dans les systèmes."></p>
-
-  <hr style="opacity:.2; margin:30px 0;">
-
-  <h2 data-pt="Psicólogo Infantil"
-      data-en="Child Psychologist"
-      data-fr="Psychologue pour enfants"></h2>
-
-  <p data-pt="CAPS | fev de 2023 – set de 2024 | Cuiabá – MT"
-     data-en="CAPS | Feb 2023 – Sep 2024 | Cuiabá – MT"
-     data-fr="CAPS | fév. 2023 – sept. 2024 | Cuiabá – MT"></p>
-
-  <p data-pt="Atuei no atendimento a crianças com diferentes necessidades, promovendo desenvolvimento emocional, cognitivo e social, com escuta ativa, empatia e comunicação clara, em parceria com famílias e equipes multidisciplinares."
-     data-en="I worked with children with different needs, promoting emotional, cognitive and social development through active listening, empathy and clear communication, in partnership with families and multidisciplinary teams."
-     data-fr="J’ai accompagné des enfants avec des besoins variés, en favorisant le développement émotionnel, cognitif et social grâce à l’écoute active, l’empathie et une communication claire, en collaboration avec des équipes pluridisciplinaires."></p>
-
-  <hr style="opacity:.2; margin:30px 0;">
-
-  <h2 data-pt="Gerente de Vendas"
-      data-en="Sales Manager"
-      data-fr="Responsable des ventes"></h2>
-
-  <p data-pt="Chocolates Lugano de Gramado | jan de 2022 – dez de 2023 | Cuiabá – MT"
-     data-en="Chocolates Lugano (Gramado) | Jan 2022 – Dec 2023 | Cuiabá – MT"
-     data-fr="Chocolats Lugano (Gramado) | janv. 2022 – déc. 2023 | Cuiabá – MT"></p>
-
-  <p data-pt="Fui responsável por liderar a equipe, definir metas, analisar resultados, ajustar estratégias, negociar com clientes e elaborar relatórios de desempenho."
-     data-en="I was responsible for leading the team, setting goals, analyzing results, adjusting strategies, negotiating with clients and producing performance reports."
-     data-fr="J’étais responsable de diriger l’équipe, définir les objectifs, analyser les résultats, ajuster les stratégies, négocier avec les clients et produire des rapports de performance."></p>
-
-</main>
-
-<footer>© 2026</footer>
-
 </body>
 </html>
