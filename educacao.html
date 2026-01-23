@@ -1,86 +1,75 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title>Educação | Fhellype Delminio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <script defer src="lang.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Educação • Fhellype Delminio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="app.js"></script>
 </head>
+
 <body>
+  <div class="container">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-badge"></div>
+        <div class="brand-text">
+          <h1>Fhellype Delminio</h1>
+          <p>Educação e cursos</p>
+        </div>
+      </div>
 
-<header>
-  <h1 data-pt="Educação" data-en="Education" data-fr="Éducation"></h1>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="educacao.html">Educação</a>
+        <a href="experiencia.html">Experiência</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="contato.html">Contato</a>
+      </nav>
 
-  <nav>
-    <a href="index.html" data-pt="Home" data-en="Home" data-fr="Accueil"></a>
-    <a href="sobre.html" data-pt="Sobre mim" data-en="About me" data-fr="À propos"></a>
-    <a href="educacao.html" data-pt="Educação" data-en="Education" data-fr="Éducation"></a>
-    <a href="experiencia.html" data-pt="Experiência" data-en="Experience" data-fr="Expérience"></a>
-  </nav>
+      <div class="actions">
+        <button class="btn" data-pdf>Salvar em PDF</button>
+        <a class="btn btn-primary" href="contato.html">Fale comigo</a>
+      </div>
+    </header>
 
-  <div class="lang">
-    <button onclick="setLang('pt')">PT</button>
-    <button onclick="setLang('en')">EN</button>
-    <button onclick="setLang('fr')">FR</button>
+    <main class="page">
+      <div class="page-inner">
+        <section class="section">
+          <h2 class="h1" style="font-size:28px;">Educação</h2>
+
+          <div class="grid">
+            <div class="item">
+              <h3>Ensino Fundamental</h3>
+              <p>Notre Dame de Lourdes</p>
+            </div>
+            <div class="item">
+              <h3>Ensino Médio</h3>
+              <p>Liceu Cuiabano Maria de Arruda Müller</p>
+            </div>
+            <div class="item">
+              <h3>Ensino Superior</h3>
+              <p>Psicologia (trancado) — UNIC</p>
+            </div>
+            <div class="item">
+              <h3>Ensino Superior</h3>
+              <p>História (4º semestre) — UNIASSELVI</p>
+            </div>
+            <div class="item">
+              <h3>Ensino Superior</h3>
+              <p>Direito (1º semestre) — INVEST</p>
+            </div>
+            <div class="item">
+              <h3>Cursos e competências</h3>
+              <p>Análise de Dados • Admin avançado • Python • Java • C++ • HTML • Edição de vídeo/foto</p>
+            </div>
+          </div>
+        </section>
+
+        <footer class="footer">© 2026 • Fhellype Delminio</footer>
+      </div>
+    </main>
   </div>
-</header>
-
-<main class="card">
-  <h2 data-pt="Formação escolar"
-      data-en="Academic background"
-      data-fr="Parcours académique"></h2>
-
-  <ul>
-    <li data-pt="Ensino Fundamental – Notre Dame de Lourdes"
-        data-en="Elementary School – Notre Dame de Lourdes"
-        data-fr="École primaire – Notre Dame de Lourdes"></li>
-
-    <li data-pt="Ensino Médio – Liceu Cuiabano Maria de Arruda Müller"
-        data-en="High School – Liceu Cuiabano Maria de Arruda Müller"
-        data-fr="Lycée – Liceu Cuiabano Maria de Arruda Müller"></li>
-
-    <li data-pt="Ensino Superior – Psicologia (trancado) – UNIC"
-        data-en="Higher Education – Psychology (paused) – UNIC"
-        data-fr="Études supérieures – Psychologie (suspendu) – UNIC"></li>
-
-    <li data-pt="Ensino Superior – História (4º semestre) – UNIASSELVI"
-        data-en="Higher Education – History (4th semester) – UNIASSELVI"
-        data-fr="Études supérieures – Histoire (4e semestre) – UNIASSELVI"></li>
-
-    <li data-pt="Ensino Superior – Direito (1º semestre) – INVEST"
-        data-en="Higher Education – Law (1st semester) – INVEST"
-        data-fr="Études supérieures – Droit (1er semestre) – INVEST"></li>
-  </ul>
-
-  <h2 data-pt="Cursos e competências"
-      data-en="Courses and skills"
-      data-fr="Cours et compétences"></h2>
-
-  <ul>
-    <li data-pt="Análise de Dados (TI)"
-        data-en="Data Analysis (IT)"
-        data-fr="Analyse de données (TI)"></li>
-
-    <li data-pt="Administrativo Avançado"
-        data-en="Advanced Administrative"
-        data-fr="Administration avancée"></li>
-
-    <li data-pt="Programação: Python, Java, C++ e HTML"
-        data-en="Programming: Python, Java, C++ and HTML"
-        data-fr="Programmation : Python, Java, C++ et HTML"></li>
-
-    <li data-pt="Edição de vídeo: Premiere, After Effects e CapCut"
-        data-en="Video editing: Premiere, After Effects and CapCut"
-        data-fr="Montage vidéo : Premiere, After Effects et CapCut"></li>
-
-    <li data-pt="Edição de imagem: Photoshop e Canva"
-        data-en="Image editing: Photoshop and Canva"
-        data-fr="Édition d’image : Photoshop et Canva"></li>
-  </ul>
-</main>
-
-<footer>© 2026</footer>
-
 </body>
 </html>
